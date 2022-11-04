@@ -1,0 +1,20 @@
+
+Copyright (C) Microsoft Corporation. All rights reserved.
+PS D:\dev\nodejs\openlayers_examples\openlayers-practice> echo "# openlayers-practice" >> README.md
+PS D:\dev\nodejs\openlayers_examples\openlayers-practice> git init
+Initialized empty Git repository in D:/dev/nodejs/openlayers_examples/openlayers-practice/.git/
+PS D:\dev\nodejs\openlayers_examples\openlayers-practice> git add .\README.md
+PS D:\dev\nodejs\openlayers_examples\openlayers-practice> git commit -m "first commit"
+[main (root-commit) 0708a89] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+PS D:\dev\nodejs\openlayers_examples\openlayers-practice> git branch -M main
+PS D:\dev\nodejs\openlayers_examples\openlayers-practice> git remote add origin https://github.com/Uginim/openlayers-practice.git
+PS D:\dev\nodejs\openlayers_examples\openlayers-practice> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 256 bytes | 256.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Uginim/openlayers-practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
